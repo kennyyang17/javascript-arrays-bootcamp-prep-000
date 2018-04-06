@@ -27,8 +27,12 @@ function accessElementInArray(array, index) {
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
   array.shift();
-  return array;
+  return arr
 }
+
+function destructivelyRemoveElementFromEndOfArray(array) {
+  array.pop();
+  return array;
 
 function removeElementFromBeginningOfArray(array) {
   array = array.slice(1);
@@ -40,6 +44,3 @@ function removeElementFromEndOfArray(array) {
   return array;
 }
 
-function destructivelyRemoveElementFromEndOfArray(array) {
-  array.shift();
-  return array;
